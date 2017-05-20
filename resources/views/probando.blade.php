@@ -62,12 +62,10 @@
             <div class="header-content-inner">
                 <h1 id="homeHeading">Encuentra Los mejores lugares de la Ciudad</h1>
                 <hr>
-                <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                <p>Aqui encontrarás información de diferentes sitios de la ciudad de Manizales como son: Hospitales, Restaurantes, Peluquerias, Mensajerías, Bares, Discotecas, Supermercados y Bancos</p>
             </div>
         </div>
     </header>
-
 <!--
     <section class="bg-primary" id="about">
         <div class="container">
@@ -92,6 +90,7 @@
             </div>
         </div>
         <div class="container">
+            <!--
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
@@ -124,95 +123,140 @@
             </div>
         </div>
     </section>
-
+-->
+    <!--
     <section class="no-padding" id="portfolio">
         <div class="container-fluid">
+
             <div class="row no-gutter popup-gallery">
+                <div class="row no-gutter popup-gallery">
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+                    <a href="img/portfolio/fullsize/manizales.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/manizales.jpg" class="img-responsive" alt="" width="449">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Ciudad Manizales
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
+                    <a href="img/portfolio/fullsize/hospital.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/hospital.jpg" class="img-responsive" alt="" width="449">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Categoría
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Hospital
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
+                    <a href="img/portfolio/fullsize/restaurante.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/restaurante.jpg" class="img-responsive" alt="" width="449">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Categoría
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Restaurante
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
+                    <a href="img/portfolio/fullsize/peluqueria.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/peluqueria.jpg" class="img-responsive" alt=""  width="449">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Categoría
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Peluquería
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
+                    <a href="img/portfolio/fullsize/correo.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/correo.jpg" class="img-responsive" alt="" width="449" >
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Categoría
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Mensajería
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
+                    <a href="img/portfolio/fullsize/bar.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/bar.jpg" class="img-responsive" alt="" width="449">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Categoría
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Bar
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/discoteca.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/discoteca.jpg" class="img-responsive" alt="" width="449">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Categoría
+                                </div>
+                                <div class="project-name">
+                                    Discoteca
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/supermercado.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/supermercado.jpg" class="img-responsive" alt="" width="449">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Categoría
+                                </div>
+                                <div class="project-name">
+                                    Supermercado
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/banco.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/banco.jpg" class="img-responsive" alt="" width="449">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Categoría
+                                </div>
+                                <div class="project-name">
+                                    Banco
                                 </div>
                             </div>
                         </div>
@@ -220,8 +264,11 @@
                 </div>
             </div>
         </div>
+        </div>
     </section>
+-->
 
+<!--
     <aside class="bg-dark">
         <div class="container text-center">
             <div class="call-to-action">
@@ -230,14 +277,15 @@
             </div>
         </div>
     </aside>
+-->
 
     <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <h2 class="section-heading">DATOS DE CONTACTO</h2>
                     <hr class="primary">
-                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                    <p>Si usted desea saber información especifica de algun sitio, hacer algun reclamo o sugerencia acerca de la página, Usted podrá contactarse con nosotros a traves del correo o un número telefónico los cuales aparecen en la parte de abajo.</p>
                 </div>
                 <div class="col-lg-4 col-lg-offset-2 text-center">
                     <i class="fa fa-phone fa-3x sr-contact"></i>
@@ -245,12 +293,11 @@
                 </div>
                 <div class="col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
+                    <p><a href="mailto:your-email@your-domain.com">lugaresmanizales@gmail.com</a></p>
                 </div>
             </div>
         </div>
     </section>
--->
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>

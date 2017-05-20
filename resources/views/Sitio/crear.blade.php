@@ -14,6 +14,7 @@
                 </ul>
             </div>
     @endif
+<section>
     {{ Form::open(array('route' => 'sitio.store', 'method' => 'POST'), array('role' => 'form')) }}
         <div class="form-group" >
             {!! Form::label('nombre','Nombre')!!}
@@ -58,10 +59,15 @@
         <div class="form-group">
                 <center>
             {!!Form::submit('Registrar',['class'=>'btn btn-primary'])!!}
-
+                    <a href="/home"><button type="button" class="btn btn-default "style=" background-color: black">
+          <span class="glyphicon glyphicon-warning"></span> Regresar
+        </button>
+                            </a>
                 </center>
+
         </div>
 
     {!! Form::close()!!}
+
 
 @endsection

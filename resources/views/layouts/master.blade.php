@@ -8,6 +8,7 @@
 
   </head>
   <body>
+
       <section id="contenedor">
       <header>
             <center><img  src="/complementos/images/bannerciudad.jpg" height="200" width="1200"></center>

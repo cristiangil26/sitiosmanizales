@@ -39,4 +39,22 @@ class UsersController extends Controller
         flash( "El Usuario ha sido actualizado correctamente");
          return redirect()->route('user.index');
     }
+      public function destroy(Request $request,$id){
+        try
+  {
+    $user = User::findOrFail($id);
+
+    $user->delete();
+
+    flash( 'Usuario Borrado!');
+
+    return redirect()->route('user.index');
+  }
+  catch(ModelNotFoundException $e)
+  {
+    flash( "El usuario $id no pudo ser borrado!");
+
+    return redirect()->back();
+  }
+    }
 }

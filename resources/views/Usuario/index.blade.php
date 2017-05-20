@@ -8,7 +8,7 @@
 @section('content')
 
 
-    <table class="table table-striped" >
+<center>    <table  width="500">
         <thead >
             <th> NOMBRE</th>
             <th>CORREO ELECTRÓNICO</th>
@@ -39,7 +39,12 @@
             @endforeach
 
         </tbody>
-    </table>
+    </table></center>
+<center>
+<a href="/home"><button type="button" class="btn btn-default "style=" background-color: black">
+          <span class="glyphicon glyphicon-warning"></span> Regresar
+        </button>
+                            </a></center>
     {!!$user->render()!!}
 @endsection
 @endif

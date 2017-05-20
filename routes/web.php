@@ -17,7 +17,6 @@ Route::get('/', function () {
 Route::get('ruta', function () {
     return view('probando');
 });
-
 Route::group(['prefix'=>'admin'],function(){
     Route::resource('sitio','SitioController');
     Route::get('sitio/{}/destroy',['uses'=>'SitioController@destroy']);
@@ -32,7 +31,7 @@ Route::group(['prefix'=>'admin'],function(){
 });
 Route::group(['prefix'=>'admin'],function(){
     Route::resource('comentario','ComentarioController');
-    Route::get('user/{}/destroy',['uses'=>'ComentarioController@destroy']);
+    Route::get('comentario/{}/destroy',['uses'=>'ComentarioController@destroy']);
 });
 Route::get('sitio', function () {
     return view('Sitio/crearComentario');
