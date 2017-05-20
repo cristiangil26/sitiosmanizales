@@ -1,0 +1,8 @@
+nombre: 2150
+direccion: cerro de oro, manizales, caldas
+latitud: 5.053623
+longitud: -75.475386
+telefono: 3133758413
+correo:
+pagina web: melostomo.com
+tipo:discoteca
