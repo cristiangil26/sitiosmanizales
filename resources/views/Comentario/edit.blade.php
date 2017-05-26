@@ -42,7 +42,7 @@
                 <center>
             {!!Form::submit('Registrar',['class'=>'btn btn-primary'])!!}
                     <center>
-<a href="/home"><button type="button" class="btn btn-default "style=" background-color: black">
+<a href="/admin/comentario"><button type="button" class="btn btn-default "style=" background-color: black">
           <span class="glyphicon glyphicon-warning"></span> Regresar
         </button>
                             </a></center>

@@ -40,7 +40,10 @@
         <div class="form-group">
                 <center>
             {!!Form::submit('Actualizar',['class'=>'btn btn-primary'])!!}
-
+<a href="/admin/sitio"><button type="button" class="btn btn-default "style=" background-color: black">
+          <span class="glyphicon glyphicon-warning"></span> Regresar
+        </button>
+                            </a>
                 </center>
         </div>
 
